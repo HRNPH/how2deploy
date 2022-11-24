@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sentiment</title>
+    <!-- axios -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- js-->
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <!-- div centered with input box-->
+    <div style="text-align:center">
+        <h1>เช็คคอมเม้นลูกค้า</h1>
+        <div class="sample_card">
+            <h1 id="sample_text" style="color: cyan;"></h1>
+            <div class="" id="prediction" style="color: red;">
+                <h1 id="prediction_text"></h1>
+            </div>
+        </div>
+        <!-- input -->
+        <input type="text" id="input_sentence" placeholder="กรอกคอมเม้นที่นี่">
+        <!-- button -->
+        <button class="button" onclick="predict()">Predict</button>
+
+</body>
+
+</html>
